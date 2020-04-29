@@ -1,5 +1,5 @@
 //
-//  PetDetails.swift
+//  PetRowView.swift
 //  PetStore
 //
 //  Created by NathanGuillaud on 29/04/2020.
@@ -8,24 +8,22 @@
 
 import SwiftUI
 
-struct PetDetails: View {
+struct PetsRowView: View {
     var pet:Pet
+    
     var body: some View {
-        VStack{
+        HStack{
             Text(pet.name)
-                .font(.headline)
                 .foregroundColor(.primary)
-            Text("Insert a description")
-                .font(.subheadline)
+            Spacer()
+            Text(pet.category)
                 .foregroundColor(.secondary)
-        }
-        .padding()
-        
+        }.padding()
     }
 }
 
-struct PetDetails_Previews: PreviewProvider {
+struct PetsRowView_Previews: PreviewProvider {
     static var previews: some View {
-        PetDetails(pet: petData[0])
+        PetsRowView(pet: petData[0])
     }
 }

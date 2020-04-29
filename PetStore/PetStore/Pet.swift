@@ -10,21 +10,22 @@ import Foundation
 import SwiftUI
 
 let petData = [
-    Pet(id: 1, name: "Cochon"),
-    Pet(id: 2, name: "Poule"),
-    Pet(id: 3, name: "Chien"),
-    Pet(id: 4, name: "Chat"),
-    Pet(id: 5, name: "Souris"),
-    Pet(id: 6, name: "Serpent"),
-    Pet(id: 7, name: "Tigre")
+    Pet(name: "Pig", category: "Domestic"),
+    Pet(name: "Lion", category: "Wild"),
+    Pet(name: "Cat", category: "Domestic"),
+    Pet(name: "Crocodile", category: "Wild"),
+    Pet(name: "Dog", category: "Domestic"),
+    Pet(name: "Snake", category: "Wild")
 ]
 
 struct Pet : Identifiable {
-    let id: Int
+    let id: UUID
     let name: String
+    let category: String
     
-    init(id: Int, name: String) {
-        self.id = id
+    init(name: String, category: String) {
+        self.id = UUID()
         self.name = name
+        self.category = category
     }
 }

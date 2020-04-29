@@ -9,15 +9,16 @@
 /* Begin PBXBuildFile section */
 		FB3C37792459A4820057AD36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3C37782459A4820057AD36 /* AppDelegate.swift */; };
 		FB3C377B2459A4820057AD36 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3C377A2459A4820057AD36 /* SceneDelegate.swift */; };
-		FB3C377D2459A4820057AD36 /* PetListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3C377C2459A4820057AD36 /* PetListView.swift */; };
+		FB3C377D2459A4820057AD36 /* PetsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3C377C2459A4820057AD36 /* PetsListView.swift */; };
 		FB3C377F2459A4840057AD36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB3C377E2459A4840057AD36 /* Assets.xcassets */; };
 		FB3C37822459A4840057AD36 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB3C37812459A4840057AD36 /* Preview Assets.xcassets */; };
 		FB3C37852459A4840057AD36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB3C37832459A4840057AD36 /* LaunchScreen.storyboard */; };
 		FB3C37902459A4840057AD36 /* PetStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3C378F2459A4840057AD36 /* PetStoreTests.swift */; };
 		FB3C379B2459A4840057AD36 /* PetStoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3C379A2459A4840057AD36 /* PetStoreUITests.swift */; };
 		FB3C37A92459A8310057AD36 /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3C37A82459A8310057AD36 /* Pet.swift */; };
-		FB3C37AF2459B1370057AD36 /* PetRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3C37AE2459B1370057AD36 /* PetRowView.swift */; };
-		FB3C37B12459B75F0057AD36 /* PetDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3C37B02459B75F0057AD36 /* PetDetails.swift */; };
+		FB3C37AF2459B1370057AD36 /* PetsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3C37AE2459B1370057AD36 /* PetsRowView.swift */; };
+		FB3C37B12459B75F0057AD36 /* PetsDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3C37B02459B75F0057AD36 /* PetsDetails.swift */; };
+		FB3C37B72459C7320057AD36 /* PetsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3C37B62459C7320057AD36 /* PetsListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +42,7 @@
 		FB3C37752459A4820057AD36 /* PetStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB3C37782459A4820057AD36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB3C377A2459A4820057AD36 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FB3C377C2459A4820057AD36 /* PetListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetListView.swift; sourceTree = "<group>"; };
+		FB3C377C2459A4820057AD36 /* PetsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetsListView.swift; sourceTree = "<group>"; };
 		FB3C377E2459A4840057AD36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB3C37812459A4840057AD36 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FB3C37842459A4840057AD36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -53,8 +54,9 @@
 		FB3C379A2459A4840057AD36 /* PetStoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetStoreUITests.swift; sourceTree = "<group>"; };
 		FB3C379C2459A4840057AD36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB3C37A82459A8310057AD36 /* Pet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pet.swift; sourceTree = "<group>"; };
-		FB3C37AE2459B1370057AD36 /* PetRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetRowView.swift; sourceTree = "<group>"; };
-		FB3C37B02459B75F0057AD36 /* PetDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetDetails.swift; sourceTree = "<group>"; };
+		FB3C37AE2459B1370057AD36 /* PetsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetsRowView.swift; sourceTree = "<group>"; };
+		FB3C37B02459B75F0057AD36 /* PetsDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetsDetails.swift; sourceTree = "<group>"; };
+		FB3C37B62459C7320057AD36 /* PetsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetsListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,8 +165,9 @@
 		FB3C37B42459C3110057AD36 /* PetsList */ = {
 			isa = PBXGroup;
 			children = (
-				FB3C37AE2459B1370057AD36 /* PetRowView.swift */,
-				FB3C377C2459A4820057AD36 /* PetListView.swift */,
+				FB3C37AE2459B1370057AD36 /* PetsRowView.swift */,
+				FB3C377C2459A4820057AD36 /* PetsListView.swift */,
+				FB3C37B62459C7320057AD36 /* PetsListViewModel.swift */,
 			);
 			path = PetsList;
 			sourceTree = "<group>";
@@ -172,7 +175,7 @@
 		FB3C37B52459C31E0057AD36 /* PetsDetails */ = {
 			isa = PBXGroup;
 			children = (
-				FB3C37B02459B75F0057AD36 /* PetDetails.swift */,
+				FB3C37B02459B75F0057AD36 /* PetsDetails.swift */,
 			);
 			name = PetsDetails;
 			sourceTree = "<group>";
@@ -310,10 +313,11 @@
 			files = (
 				FB3C37792459A4820057AD36 /* AppDelegate.swift in Sources */,
 				FB3C37A92459A8310057AD36 /* Pet.swift in Sources */,
-				FB3C37AF2459B1370057AD36 /* PetRowView.swift in Sources */,
+				FB3C37AF2459B1370057AD36 /* PetsRowView.swift in Sources */,
 				FB3C377B2459A4820057AD36 /* SceneDelegate.swift in Sources */,
-				FB3C37B12459B75F0057AD36 /* PetDetails.swift in Sources */,
-				FB3C377D2459A4820057AD36 /* PetListView.swift in Sources */,
+				FB3C37B12459B75F0057AD36 /* PetsDetails.swift in Sources */,
+				FB3C37B72459C7320057AD36 /* PetsListViewModel.swift in Sources */,
+				FB3C377D2459A4820057AD36 /* PetsListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
