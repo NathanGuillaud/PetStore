@@ -17,7 +17,7 @@ struct PetsListView: View {
             ScrollView{
                 VStack{
                     ForEach(petsListViewModel.petsList) { pet in
-                        NavigationLink(destination: PetsDetails(pet: pet)){
+                        NavigationLink(destination: PetsDetailsView(pet: pet)){
                             PetsRowView(pet: pet)
                         }
                     }

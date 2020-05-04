@@ -1,0 +1,6 @@
+framework module Pods_PetStore_PetStoreUITests {
+  umbrella header "Pods-PetStore-PetStoreUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

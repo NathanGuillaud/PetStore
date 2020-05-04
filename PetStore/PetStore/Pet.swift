@@ -8,24 +8,9 @@
 
 import Foundation
 import SwiftUI
+import OpenAPIClient
 
 let petData = [
-    Pet(name: "Pig", category: "Domestic"),
-    Pet(name: "Lion", category: "Wild"),
-    Pet(name: "Cat", category: "Domestic"),
-    Pet(name: "Crocodile", category: "Wild"),
-    Pet(name: "Dog", category: "Domestic"),
-    Pet(name: "Snake", category: "Wild")
+    Pet(id: 100, category: Category(id: 100, name: "Category 100"), name: "Pet 100", photoUrls: ["photoUrls_example"], tags: nil, status: nil),
+    Pet(id: 101, category: Category(id: 100, name: "Category 100"), name: "Pet 101", photoUrls: ["photoUrls_example"], tags: nil, status: nil)
 ]
-
-struct Pet : Identifiable {
-    let id: UUID
-    let name: String
-    let category: String
-    
-    init(name: String, category: String) {
-        self.id = UUID()
-        self.name = name
-        self.category = category
-    }
-}

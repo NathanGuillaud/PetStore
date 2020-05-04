@@ -7,15 +7,16 @@
 //
 
 import SwiftUI
+import OpenAPIClient
 
-struct PetsDetails: View {
+struct PetsDetailsView: View {
     var pet:Pet
     var body: some View {
         VStack{
             Text(pet.name)
                 .font(.headline)
                 .foregroundColor(.primary)
-            Text("\(pet.name) is a \(pet.category.lowercased()) animal")
+            Text("\(pet.name) is a \(pet.category?.name?.lowercased() ?? "NO CATEGORY") animal")
                 .font(.subheadline)
                 .foregroundColor(.secondary)
         }
@@ -24,8 +25,8 @@ struct PetsDetails: View {
     }
 }
 
-struct PetsDetails_Previews: PreviewProvider {
+struct PetsDetailsView_Previews: PreviewProvider {
     static var previews: some View {
-        PetsDetails(pet: petData[0])
+        PetsDetailsView(pet: petData[0])
     }
 }

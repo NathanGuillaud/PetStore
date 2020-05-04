@@ -7,6 +7,7 @@
 //
 
 import SwiftUI
+import OpenAPIClient
 
 struct PetsRowView: View {
     var pet:Pet
@@ -16,7 +17,7 @@ struct PetsRowView: View {
             Text(pet.name)
                 .foregroundColor(.primary)
             Spacer()
-            Text(pet.category)
+            Text(pet.category?.name ?? "NO CATEGORY")
                 .foregroundColor(.secondary)
         }.padding()
     }
