@@ -15,30 +15,16 @@ struct PetsListView: View {
     
     var body: some View {
         NavigationView{
-            ScrollView{
-                VStack{
-                    ForEach(petsListViewModel.petsList) { pet in
-                        NavigationLink(destination: PetsDetailsView(pet: pet)){
-                            PetsRowView(pet: pet, didDeletePet: {
-                                petId in
-                                self.petsListViewModel.deletePet(petId: petId)
-                            })
-                        }
+            List{
+                ForEach(petsListViewModel.petsList) { pet in
+                    NavigationLink(destination: PetsDetailsView(pet: pet)){
+                        PetsRowView(pet: pet)
                     }
-                }
+                }.onDelete(perform: self.deleteRow)
             }
+                
             .navigationBarTitle(Text("Pets"))
             .navigationBarItems(trailing:
-                /*HStack {
-                 NavigationLink(destination: PetCreationView()) {
-                 Text("Add a pet")
-                 }
-                 Button(action: {
-                 self.petsListViewModel.fetchPets()
-                 }, label: {
-                 Text("Fetch pets")
-                 })
-                 }*/
                 Button(action: {
                     self.isPresentingAddModal.toggle()
                 }, label: {
@@ -51,6 +37,11 @@ struct PetsListView: View {
                 })
             })
         }
+    }
+    
+    private func deleteRow(at indexSet: IndexSet) {
+        //self.petsListViewModel.petsList.remove(atOffsets: indexSet)
+        self.petsListViewModel.deletePet(petIndex: indexSet)
     }
 }
 

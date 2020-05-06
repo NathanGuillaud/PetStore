@@ -33,15 +33,12 @@ class PetsListViewModel : ObservableObject {
             if ((response) != nil) {
                 let pets: [Pet]! = response
                 if(pets != nil){
-                    print("----- LIST AFTER FETCHING -----")
                     pets.forEach{
                         pet in print(pet.name)
                     }
                     DispatchQueue.main.async {
                         self.petsList = pets
-                        print(self.petsList)
                     }
-                    
                 }
             }
         }
@@ -62,24 +59,35 @@ class PetsListViewModel : ObservableObject {
                 self.fetchPets()
             }
         }
-        
     }
     
-    func deletePet(petId: Int64) {
-        let apiKey = "apiKey_example" // String |  (optional)
+    func deletePet(petIndex: IndexSet) {
+        let index: Int! = petIndex.first
+        if(index != nil) {
+            let petId: Int64! = self.petsList[index].id
+            if(petId != nil) {
+                let apiKey = "apiKey_example" // String |  (optional)
 
-        // Deletes a pet
-        PetAPI.deletePet(petId: petId, apiKey: apiKey) { (response, error) in
-            guard error == nil else {
-                print(error)
-                return
-            }
+                // Delete the pet from the server
+                PetAPI.deletePet(petId: petId, apiKey: apiKey) { (response, error) in
+                    guard error == nil else {
+                        print(error)
+                        return
+                    }
 
-            if ((response) != nil) {
-                self.fetchPets()
+                    if ((response) != nil) {
+                        self.fetchPets()
+                    }
+                }
+                
+                //Delete the pet from the list
+                self.petsList.remove(atOffsets: petIndex)
+            } else {
+                print("ERROR: Pet ID not found in the list")
             }
+        } else {
+            print("ERROR: Index not found")
         }
-        
     }
     
 }
