@@ -12,13 +12,29 @@ import OpenAPIClient
 struct PetsDetailsView: View {
     var pet:Pet
     var body: some View {
-        VStack{
+        VStack(alignment: .leading){
+            if(!pet.photoUrls[0].isEmpty) {
+                URLImage(url: URL(string: pet.photoUrls[0])!, placeholder: Text("NO IMAGE"))
+            }
+            
             Text(pet.name)
                 .font(.headline)
                 .foregroundColor(.primary)
-            Text("\(pet.name) is a \(pet.category?.name?.lowercased() ?? "NO CATEGORY") animal witth a status of \(pet.status?.rawValue ?? "NO STATUS")")
-                .font(.subheadline)
-                .foregroundColor(.secondary)
+                .padding()
+            HStack {
+                Text("Category")
+                Spacer()
+                Text(pet.category?.name?.lowercased() ?? "")
+            }
+            .font(.subheadline)
+            .padding()
+            HStack {
+                Text("Status")
+                Spacer()
+                Text(pet.status?.rawValue ?? "")
+            }
+            .font(.subheadline)
+            .padding()
         }
         .padding()
         

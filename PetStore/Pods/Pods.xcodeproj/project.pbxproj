@@ -3,25 +3,74 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		075C3B4253F276B048CA425FB8A4CF6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		08328C23F7F51511B034471D266D6D0E /* Pods-OpenAPIClient-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EE5127199D005DE48D9034DF4378FEDC /* Pods-OpenAPIClient-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0E506B60BCE07A7A1EE3E90966550D99 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		14FACAE776172D1D833E5D9DEEB2DF06 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		307B3BB8254246F33C5F5A3D49558B96 /* Pods-PetStore-PetStoreUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B28FC721081653BBF601AA7DF6045D51 /* Pods-PetStore-PetStoreUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08328C23F7F51511B034471D266D6D0E /* Pods-OpenAPIClient-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 16E6BBAB0A8D6EC5C9702348CE0440C7 /* Pods-OpenAPIClient-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1111111BB169EF3B04AC3703677DDDF3 /* DownloadService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90D676B2006C2B3C7DEE13FC120BB9D /* DownloadService.swift */; };
+		135C227E160B10461FF90C640CF5438F /* CircleProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97FA6BB7D30780B06AAB9A81F853E04B /* CircleProgressView.swift */; };
+		188F63B08044EB7695C62D2E64CD4F41 /* URLImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33862BEE53071F87728EEAAB5F8A316 /* URLImage.swift */; };
+		18D890E7A9695B529AFF4216A1C6D1CB /* URLImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C732EA77A029D0F074EF63930F1643 /* URLImage-dummy.m */; };
+		1C46288EC80180ED98DE507E3D3B68CD /* Pods-PetStore-PetStoreUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3151DBA4AA43829769DA581471EE17 /* Pods-PetStore-PetStoreUITests-dummy.m */; };
+		368096320B95F083C47448BBF9884B1A /* ImageSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7130C78858214BFA02814C8924F277B3 /* ImageSource.swift */; };
+		38C5FE1CFB9E61D2F24A2658EB77BD1D /* Pods-PetStore-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F5ED8DF2C350DEAEBFAB4B8DBFD4753 /* Pods-PetStore-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C5D200E19C19CFB10EA0D24013C8BB6 /* FileManager+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF314DD2F127A4167C9390467253F3BE /* FileManager+Extensions.swift */; };
+		3D917575D96428B1C4E95051F64AAB7F /* AnimatedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5B460DCD70953ACFB7882C47E9A52B /* AnimatedImageView.swift */; };
+		426AE8ECAD1670EFECD38DF71CFA8421 /* ImageProcessorClosure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F91CA66D74E9DB1E99EE1FB985287D8 /* ImageProcessorClosure.swift */; };
+		4590623F32A50F4E0206597B8573938D /* CGImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C95E02D35D1E218154FD4DBDA903AD /* CGImage+Extensions.swift */; };
+		46886CC9F9DA247FBB10B27EBB175B25 /* ImageProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C190C44F29083869753E7B9655CF85 /* ImageProxy.swift */; };
 		4939BE0BAC2216949A32FD4458555D86 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		6D9B360108F5F96471A1F04BEAFC4CC8 /* Pods-OpenAPIClient-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B7AE543B76F2F69CC78BC1345B1EC2 /* Pods-OpenAPIClient-dummy.m */; };
-		92CC99F80A504A961419B80A760F9A6D /* Pods-PetStoreTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F215745A474C1953490399373761087 /* Pods-PetStoreTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B1820A53F205BF3A401F43B665DFAFEE /* Pods-PetStore-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 08F0D8F08273F313943FE033DDD90692 /* Pods-PetStore-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BEE6AC7B2873D2F7F690DB2E8E883093 /* Pods-PetStore-PetStoreUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA924A196C0459C5A741D4AA3708D970 /* Pods-PetStore-PetStoreUITests-dummy.m */; };
-		D1EC3EDC2FF109C8E5F51A5DE23814C8 /* Pods-PetStoreTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 209CF906A3F216F989B5F1AB04974D6B /* Pods-PetStoreTests-dummy.m */; };
-		DF2971A695C8777835285CB48C4F14EC /* Pods-PetStore-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4EB287F8CE6FE5E294DFC6CDF129F1 /* Pods-PetStore-dummy.m */; };
+		53461F8026C78BABE5009494AFAA479E /* URLSessionDownloadDelegateWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B7337F17C51ED3F2D749D7C5D95241 /* URLSessionDownloadDelegateWrapper.swift */; };
+		53BD16E99EDB0FABB02E414EBDDB6617 /* ImageLoaderContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155430BBB42F56D9AD4EC5A9AA5AF393 /* ImageLoaderContentView.swift */; };
+		57AA47ED70E89F5ABA59F7F2C68B77DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		61447FBEFAB97A52F85C9811E44B7F91 /* CoreDataModelDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A6EFCECC81EAD4DC07B3EE97F5A202 /* CoreDataModelDescription.swift */; };
+		68BF1789B40F4C28C30CE9A64439139F /* CoreImageFilterProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDD126F7E1BC74F389192229B690CE8 /* CoreImageFilterProcessor.swift */; };
+		697BF090D7D639EDE3D1C367B02CFA4A /* RemoteFileCacheService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F80524EF64A67FE71A4DBDCE84D50BF /* RemoteFileCacheService.swift */; };
+		6986185E737FDCBF411685F1964CE095 /* DownloadHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C5C2891596B253FE033FCCEB08DB55 /* DownloadHandler.swift */; };
+		6CFE2436F3CCFC08D39D240BF37FD2F5 /* Pods-PetStore-PetStoreUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 77E9435CD55F23512F503A9A7E076AE7 /* Pods-PetStore-PetStoreUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D9B360108F5F96471A1F04BEAFC4CC8 /* Pods-OpenAPIClient-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E75B7E058CD7777EB8DB2CB242B90558 /* Pods-OpenAPIClient-dummy.m */; };
+		6EE34534AB5A94E7786ADF73D17C64BA /* CircleActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B225D4025EED5E5788411BFC1DD537B /* CircleActivityView.swift */; };
+		778BCF487BE93715B019B37FA08A8EB5 /* DownloadProgressWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5B52BB28A9769DE1BEA0327F377BBF /* DownloadProgressWrapper.swift */; };
+		78A94BFB402196C7A2656B344009AD73 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220322725326126C7FF538FCD0AD9B52 /* Log.swift */; };
+		7A52A51E6CFBAFC27147EB4B218262C0 /* FileIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = B644C67B03B6BC9AB959CE50FA67ED91 /* FileIndex.swift */; };
+		84C435CA7D1D079EE143ACE6FBC80A7D /* ImageLoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0882EB9B35197BA8EBB160917CCCCFCA /* ImageLoaderView.swift */; };
+		918523E12ABEDFA26B82803534B5F639 /* ImageProcessing.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24143803B6A6886E9C5E8FF844A785B /* ImageProcessing.swift */; };
+		929BFCF40C7058F50D03F7B0C2944653 /* CoreDataAttributeDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC80E8A8ADA1C17FED6A0486CD34EF8D /* CoreDataAttributeDescription.swift */; };
+		92CC99F80A504A961419B80A760F9A6D /* Pods-PetStoreTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 28EB138F5D4D4D92FBE91FB3D2DD5B1C /* Pods-PetStoreTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		944D2FE70C6A2484501C24C52D0AB4FD /* ImageProcessorGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9118B284DE339EA03EEDA0CADF74B11D /* ImageProcessorGroup.swift */; };
+		95215AE6F00F45FFA8562E7C15FCF49B /* CoreDataFetchIndexDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B108EB278A63952B90509FAA519FA52 /* CoreDataFetchIndexDescription.swift */; };
+		978A0AECD3DD0EA34A9BDB8DB6A49BF8 /* ImageIOUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A8F96EF427E586D847479070248AAC /* ImageIOUtils.swift */; };
+		98226122E7060AF315430819FC370D6B /* Resize.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7BC350D88DDA63A5CD757F7356988A /* Resize.swift */; };
+		9DD398571266836890AFFE256A9EC821 /* DownloadObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = A747904F71898184C3F0969D77A2346C /* DownloadObserver.swift */; };
+		A6609D67A08A71D0933FA4815DC33F92 /* ImageDownloadHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57319781B9125243059FC3D6C0160AF /* ImageDownloadHandler.swift */; };
+		AC47BEE1E28F1AB80B486984536451D3 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA52FB9BF96E23E44299FB7A6D67E3F0 /* ProgressView.swift */; };
+		B153CD9CC8BC01F27C4D411936204A9D /* CacheHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAB35C5D424ACDCF75BB62A4D6F4ACB /* CacheHelper.swift */; };
+		BAFCB5E475D18267D092EDD0C4DE82A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		BF1E058E6199ED794718A700F135980B /* Pods-PetStore-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1930900C1BAB6F342CAB50B5F93C1999 /* Pods-PetStore-dummy.m */; };
+		C9F0940ED0FE00702A81F05FC9D336FD /* CircleProgressShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4857008DA2875A5C52ACF3A7B4A35FA3 /* CircleProgressShape.swift */; };
+		CBE0C64CADCB6593D0FCCE834388422E /* ImageDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122C7CF3540901A2CD32E76EE6412154 /* ImageDecoder.swift */; };
+		D1EC3EDC2FF109C8E5F51A5DE23814C8 /* Pods-PetStoreTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1635D91DC869AE26E2288DDE09577F98 /* Pods-PetStoreTests-dummy.m */; };
+		D293C1172FBEA7A203EAD9E08C5F0142 /* DefaultPlaceholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AF5838C58238F052645F695D8FC70A /* DefaultPlaceholder.swift */; };
+		D3386B4CD56E4EA59B7D9839E6E955DB /* DownloadCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C30A639E5FADF23D2C80107EF81FB50 /* DownloadCoordinator.swift */; };
+		D528543E9D891716545CE7BDCF5CBBE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		DC347BADC8A54D9569BD0D794803F141 /* URLImage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D5BD52FCD079D78789EAED18D08BAAEA /* URLImage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFEF4ED5A67281D0E42774729C6565FE /* Version.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECBD91EECFEFF7A3F80BD90E129BEAD /* Version.swift */; };
+		E3EB92CD6EAF5E945B22DE497EC9C315 /* CoreDataEntityDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262068CD738266CA69622FED79916CE6 /* CoreDataEntityDescription.swift */; };
+		EC99B39D0756FA7A38B8EDD2F622B351 /* URLImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C21B53DFDD9D939A9359E2E7E6A946 /* URLImageService.swift */; };
+		F33AC9CAB4C5651A8BE43C62579E532A /* CGContext+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5DE6785450640DCAF924FD06836E65 /* CGContext+Extensions.swift */; };
+		FE7F3FE0713A179A0AEB9965530496D6 /* LoadingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C692F48B0D25D54D59784A1F4F59F8A2 /* LoadingState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		3BC8AC0525405E0E3EDC7EC11AADDB48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59F0EC9E7C53B8F2B2B1AC59226250AB;
+			remoteInfo = URLImage;
+		};
 		B46D138CF5BE9219CCA203728B14FB2D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -29,50 +78,114 @@
 			remoteGlobalIDString = 2DDF58A5690B3441F713C3DE4227B040;
 			remoteInfo = "Pods-PetStore";
 		};
+		CE23F2FB527EB223A381E5CB4EAB58EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59F0EC9E7C53B8F2B2B1AC59226250AB;
+			remoteInfo = URLImage;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		08F0D8F08273F313943FE033DDD90692 /* Pods-PetStore-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PetStore-umbrella.h"; sourceTree = "<group>"; };
-		209CF906A3F216F989B5F1AB04974D6B /* Pods-PetStoreTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PetStoreTests-dummy.m"; sourceTree = "<group>"; };
-		24B7AE543B76F2F69CC78BC1345B1EC2 /* Pods-OpenAPIClient-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OpenAPIClient-dummy.m"; sourceTree = "<group>"; };
-		278549B4BE390450E91A9C1ADE8A06E7 /* Pods-PetStore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PetStore.release.xcconfig"; sourceTree = "<group>"; };
-		2E67C610706EDDCAF4CE84E7D82496A2 /* Pods-PetStoreTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PetStoreTests-Info.plist"; sourceTree = "<group>"; };
+		00B7337F17C51ED3F2D749D7C5D95241 /* URLSessionDownloadDelegateWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLSessionDownloadDelegateWrapper.swift; path = Sources/URLImage/ImageLoader/Downloader/URLSessionDownloadDelegateWrapper.swift; sourceTree = "<group>"; };
+		07A8F96EF427E586D847479070248AAC /* ImageIOUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageIOUtils.swift; path = Sources/URLImage/Utils/ImageIO/ImageIOUtils.swift; sourceTree = "<group>"; };
+		0882EB9B35197BA8EBB160917CCCCFCA /* ImageLoaderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageLoaderView.swift; path = Sources/URLImage/ImageLoader/Views/ImageLoaderView.swift; sourceTree = "<group>"; };
+		09C732EA77A029D0F074EF63930F1643 /* URLImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "URLImage-dummy.m"; sourceTree = "<group>"; };
+		0CC486A0CB3B6F502674EE35029C2FD2 /* Pods-OpenAPIClient.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OpenAPIClient.modulemap"; sourceTree = "<group>"; };
+		0F947C9BE1C8D3ABBEE7FCCB5AB04B20 /* Pods-OpenAPIClient-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OpenAPIClient-acknowledgements.plist"; sourceTree = "<group>"; };
+		122C7CF3540901A2CD32E76EE6412154 /* ImageDecoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDecoder.swift; path = Sources/URLImage/Utils/ImageIO/ImageDecoder/ImageDecoder.swift; sourceTree = "<group>"; };
+		143B8628983F52F71CBD020971088D9F /* Pods-PetStore-PetStoreUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PetStore-PetStoreUITests.release.xcconfig"; sourceTree = "<group>"; };
+		152CC79BDEAD6570880E15DE497175B7 /* Pods-PetStoreTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PetStoreTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		155430BBB42F56D9AD4EC5A9AA5AF393 /* ImageLoaderContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageLoaderContentView.swift; path = Sources/URLImage/ImageLoader/Views/ImageLoaderContentView.swift; sourceTree = "<group>"; };
+		1635D91DC869AE26E2288DDE09577F98 /* Pods-PetStoreTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PetStoreTests-dummy.m"; sourceTree = "<group>"; };
+		16E6BBAB0A8D6EC5C9702348CE0440C7 /* Pods-OpenAPIClient-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OpenAPIClient-umbrella.h"; sourceTree = "<group>"; };
+		1930900C1BAB6F342CAB50B5F93C1999 /* Pods-PetStore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PetStore-dummy.m"; sourceTree = "<group>"; };
+		1B225D4025EED5E5788411BFC1DD537B /* CircleActivityView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CircleActivityView.swift; path = Sources/URLImage/Views/ProgressView/Circle/CircleActivityView.swift; sourceTree = "<group>"; };
+		1F1D62D5626C7607DE41E13E4A50B0DB /* URLImage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = URLImage.modulemap; sourceTree = "<group>"; };
+		20C190C44F29083869753E7B9655CF85 /* ImageProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageProxy.swift; path = Sources/URLImage/Model/ImageProxy.swift; sourceTree = "<group>"; };
+		220322725326126C7FF538FCD0AD9B52 /* Log.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Log.swift; path = Sources/URLImage/Utils/Log.swift; sourceTree = "<group>"; };
+		23C95E02D35D1E218154FD4DBDA903AD /* CGImage+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGImage+Extensions.swift"; path = "Sources/URLImage/Utils/CoreGraphics/CGImage+Extensions.swift"; sourceTree = "<group>"; };
+		262068CD738266CA69622FED79916CE6 /* CoreDataEntityDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoreDataEntityDescription.swift; path = Sources/URLImage/Utils/CoreData/CoreDataEntityDescription.swift; sourceTree = "<group>"; };
+		2887F2E4A4C98BEF767A166683622593 /* URLImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = URLImage.framework; path = URLImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28EB138F5D4D4D92FBE91FB3D2DD5B1C /* Pods-PetStoreTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PetStoreTests-umbrella.h"; sourceTree = "<group>"; };
+		2A9EC6AABF02DF57625C330B6B41269B /* URLImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "URLImage-prefix.pch"; sourceTree = "<group>"; };
+		2F80524EF64A67FE71A4DBDCE84D50BF /* RemoteFileCacheService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RemoteFileCacheService.swift; path = Sources/URLImage/ImageCache/RemoteFileCacheService.swift; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		326789F840FFFF2B41E4777BE0A2B376 /* Pods-PetStoreTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PetStoreTests.modulemap"; sourceTree = "<group>"; };
-		3A0695EDDCD6AC0179CF9F44800544A6 /* Pods-PetStore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PetStore.debug.xcconfig"; sourceTree = "<group>"; };
-		3B642294F7642B38E0DBD245110856BB /* Pods-OpenAPIClient-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OpenAPIClient-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4BD0A6C9C1212366D5F761167085EB2B /* Pods-OpenAPIClient-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OpenAPIClient-acknowledgements.plist"; sourceTree = "<group>"; };
-		59C8CEF09092E5069A890E60D740ACB3 /* Pods-PetStore-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PetStore-acknowledgements.markdown"; sourceTree = "<group>"; };
-		69DFD9CFD455E57EA96798133116349D /* Pods-PetStore-PetStoreUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PetStore-PetStoreUITests.modulemap"; sourceTree = "<group>"; };
-		6F215745A474C1953490399373761087 /* Pods-PetStoreTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PetStoreTests-umbrella.h"; sourceTree = "<group>"; };
+		3CBC5AABF21711B6F9E552DCA0FE83F1 /* Pods-PetStore-PetStoreUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PetStore-PetStoreUITests-Info.plist"; sourceTree = "<group>"; };
+		3E3151DBA4AA43829769DA581471EE17 /* Pods-PetStore-PetStoreUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PetStore-PetStoreUITests-dummy.m"; sourceTree = "<group>"; };
+		4857008DA2875A5C52ACF3A7B4A35FA3 /* CircleProgressShape.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CircleProgressShape.swift; path = Sources/URLImage/Views/ProgressView/Circle/CircleProgressShape.swift; sourceTree = "<group>"; };
+		48CF27A032736D8B82DEDF8CD4B6B22B /* Pods-PetStore-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PetStore-frameworks.sh"; sourceTree = "<group>"; };
+		4C30A639E5FADF23D2C80107EF81FB50 /* DownloadCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DownloadCoordinator.swift; path = Sources/URLImage/ImageLoader/Downloader/DownloadCoordinator.swift; sourceTree = "<group>"; };
+		4CDD3F94EA454BCAB30184DEF4A39EDB /* Pods-PetStore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PetStore.debug.xcconfig"; sourceTree = "<group>"; };
+		4ECBD91EECFEFF7A3F80BD90E129BEAD /* Version.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Version.swift; path = Sources/URLImage/Utils/Version.swift; sourceTree = "<group>"; };
+		59C21B53DFDD9D939A9359E2E7E6A946 /* URLImageService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLImageService.swift; path = Sources/URLImage/URLImageService.swift; sourceTree = "<group>"; };
+		5B108EB278A63952B90509FAA519FA52 /* CoreDataFetchIndexDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoreDataFetchIndexDescription.swift; path = Sources/URLImage/Utils/CoreData/CoreDataFetchIndexDescription.swift; sourceTree = "<group>"; };
+		5F5ED8DF2C350DEAEBFAB4B8DBFD4753 /* Pods-PetStore-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PetStore-umbrella.h"; sourceTree = "<group>"; };
+		60E4459BF8883D745D09A5A63E20ED83 /* Pods-OpenAPIClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpenAPIClient.debug.xcconfig"; sourceTree = "<group>"; };
+		64C5B0BD53E9544E74658CC1F519A84C /* Pods-PetStore.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PetStore.modulemap"; sourceTree = "<group>"; };
+		68CE2E06E6CFFE7F69A00731F2245165 /* Pods-PetStoreTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PetStoreTests.release.xcconfig"; sourceTree = "<group>"; };
+		693D08D3AE3A265DB9D8DC0C6B0A74A6 /* Pods-OpenAPIClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpenAPIClient.release.xcconfig"; sourceTree = "<group>"; };
 		70706BE45457FD22D117B9DEF948B072 /* Pods_PetStore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PetStore.framework; path = "Pods-PetStore.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		77869798338A2289F7BD04BE3FC41588 /* Pods-PetStore-PetStoreUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PetStore-PetStoreUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		8AB90B361814DECFC80F565BDD52515E /* Pods-PetStoreTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PetStoreTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7130C78858214BFA02814C8924F277B3 /* ImageSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageSource.swift; path = Sources/URLImage/Utils/ImageSource.swift; sourceTree = "<group>"; };
+		71AD8D00690BB976534485B519FADD8D /* Pods-PetStoreTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PetStoreTests.debug.xcconfig"; sourceTree = "<group>"; };
+		760E9D325985DDC1A2D6A9474664F5A9 /* URLImage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = URLImage.debug.xcconfig; sourceTree = "<group>"; };
+		7659D86CEFFDC5739DF87F08417F2489 /* Pods-PetStoreTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PetStoreTests.modulemap"; sourceTree = "<group>"; };
+		76C3D97FECE95F9DE708F53726BC2335 /* Pods-PetStore-PetStoreUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PetStore-PetStoreUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		77E9435CD55F23512F503A9A7E076AE7 /* Pods-PetStore-PetStoreUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PetStore-PetStoreUITests-umbrella.h"; sourceTree = "<group>"; };
+		78E37CCFE2615F4202953469FE63AF12 /* Pods-PetStoreTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PetStoreTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		871AEF1BB4806FD2EF45D465EA305694 /* Pods-PetStore-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PetStore-Info.plist"; sourceTree = "<group>"; };
+		8B5B52BB28A9769DE1BEA0327F377BBF /* DownloadProgressWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DownloadProgressWrapper.swift; path = Sources/URLImage/Model/DownloadProgressWrapper.swift; sourceTree = "<group>"; };
+		8F91CA66D74E9DB1E99EE1FB985287D8 /* ImageProcessorClosure.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageProcessorClosure.swift; path = Sources/URLImage/ImageProcessing/Processors/ImageProcessorClosure.swift; sourceTree = "<group>"; };
+		9043B1EFF28A77374600B7D31689B88A /* Pods-PetStore-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PetStore-acknowledgements.markdown"; sourceTree = "<group>"; };
 		90ECDD51FE811A934995E11D37246284 /* Pods_PetStoreTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PetStoreTests.framework; path = "Pods-PetStoreTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		926F478E7077C8A9E587ACE878C6F018 /* Pods-PetStore-PetStoreUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PetStore-PetStoreUITests-Info.plist"; sourceTree = "<group>"; };
-		9AA2650F343B21B238218BA79DF3AE60 /* Pods-OpenAPIClient-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OpenAPIClient-Info.plist"; sourceTree = "<group>"; };
+		9118B284DE339EA03EEDA0CADF74B11D /* ImageProcessorGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageProcessorGroup.swift; path = Sources/URLImage/ImageProcessing/Processors/ImageProcessorGroup.swift; sourceTree = "<group>"; };
+		97FA6BB7D30780B06AAB9A81F853E04B /* CircleProgressView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CircleProgressView.swift; path = Sources/URLImage/Views/ProgressView/Circle/CircleProgressView.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A79B13D288E7538366AA68D85A596124 /* Pods-PetStoreTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PetStoreTests.debug.xcconfig"; sourceTree = "<group>"; };
-		A8FE3193E4B332E4299A23ED4C286159 /* Pods-OpenAPIClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpenAPIClient.release.xcconfig"; sourceTree = "<group>"; };
-		B1D08EE11B1DE7455746738AF6FE8026 /* Pods-PetStore-PetStoreUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PetStore-PetStoreUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B28FC721081653BBF601AA7DF6045D51 /* Pods-PetStore-PetStoreUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PetStore-PetStoreUITests-umbrella.h"; sourceTree = "<group>"; };
-		B6D9CABAA88FE13E160A32CEFB7BB7EE /* Pods-PetStoreTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PetStoreTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		BB96E78CF9B5C0DD6A0F247D1C70B16E /* Pods-PetStore-PetStoreUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PetStore-PetStoreUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		BC4EB287F8CE6FE5E294DFC6CDF129F1 /* Pods-PetStore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PetStore-dummy.m"; sourceTree = "<group>"; };
-		BD72F79CF648C2424E3E177B400E6F5A /* Pods-PetStoreTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PetStoreTests.release.xcconfig"; sourceTree = "<group>"; };
-		BD7368883DDB731549D425A96BC6B98A /* Pods-PetStore-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PetStore-Info.plist"; sourceTree = "<group>"; };
+		A3AF5838C58238F052645F695D8FC70A /* DefaultPlaceholder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultPlaceholder.swift; path = Sources/URLImage/Utils/DefaultPlaceholder.swift; sourceTree = "<group>"; };
+		A6856BF03C138839022290846352111E /* Pods-PetStore-PetStoreUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PetStore-PetStoreUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A747904F71898184C3F0969D77A2346C /* DownloadObserver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DownloadObserver.swift; path = Sources/URLImage/ImageLoader/Downloader/DownloadObserver.swift; sourceTree = "<group>"; };
+		AB5B460DCD70953ACFB7882C47E9A52B /* AnimatedImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedImageView.swift; path = Sources/URLImage/Views/AnimatedImageView.swift; sourceTree = "<group>"; };
+		AC59B87D5E26BB8B8F7858841DF6CD16 /* Pods-PetStore-PetStoreUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PetStore-PetStoreUITests.modulemap"; sourceTree = "<group>"; };
+		B14EE7205926DCF66AAEEE0F510CC9BE /* Pods-PetStore-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PetStore-acknowledgements.plist"; sourceTree = "<group>"; };
+		B1A5138FED8B90ABDF5E178194C94AFB /* Pods-PetStore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PetStore.release.xcconfig"; sourceTree = "<group>"; };
+		B57319781B9125243059FC3D6C0160AF /* ImageDownloadHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDownloadHandler.swift; path = Sources/URLImage/ImageLoader/ImageDownloadHandler.swift; sourceTree = "<group>"; };
+		B644C67B03B6BC9AB959CE50FA67ED91 /* FileIndex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FileIndex.swift; path = Sources/URLImage/ImageCache/FileIndex.swift; sourceTree = "<group>"; };
+		BBAEE04AF51F916D36CC507CA1AA5C6C /* URLImage-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "URLImage-Info.plist"; sourceTree = "<group>"; };
+		BC5DE6785450640DCAF924FD06836E65 /* CGContext+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGContext+Extensions.swift"; path = "Sources/URLImage/Utils/CoreGraphics/CGContext+Extensions.swift"; sourceTree = "<group>"; };
+		BC80E8A8ADA1C17FED6A0486CD34EF8D /* CoreDataAttributeDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoreDataAttributeDescription.swift; path = Sources/URLImage/Utils/CoreData/CoreDataAttributeDescription.swift; sourceTree = "<group>"; };
+		BE4A0638674DE2CB635F7D5D04962065 /* Pods-PetStoreTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PetStoreTests-Info.plist"; sourceTree = "<group>"; };
 		C15322F6592E8B159BB3C5519EA89313 /* Pods_OpenAPIClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OpenAPIClient.framework; path = "Pods-OpenAPIClient.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D4AFBD6EA6082A9366B51582BB375C29 /* Pods-OpenAPIClient.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OpenAPIClient.modulemap"; sourceTree = "<group>"; };
-		EE5127199D005DE48D9034DF4378FEDC /* Pods-OpenAPIClient-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OpenAPIClient-umbrella.h"; sourceTree = "<group>"; };
+		C2C5C2891596B253FE033FCCEB08DB55 /* DownloadHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DownloadHandler.swift; path = Sources/URLImage/ImageLoader/Downloader/DownloadHandler.swift; sourceTree = "<group>"; };
+		C384367E779404E97C9776AF4E8DA023 /* Pods-OpenAPIClient-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OpenAPIClient-Info.plist"; sourceTree = "<group>"; };
+		C3DEA8B460337FFD2E13C67D10037AB8 /* Pods-PetStore-PetStoreUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PetStore-PetStoreUITests-frameworks.sh"; sourceTree = "<group>"; };
+		C692F48B0D25D54D59784A1F4F59F8A2 /* LoadingState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoadingState.swift; path = Sources/URLImage/ImageLoader/Downloader/LoadingState.swift; sourceTree = "<group>"; };
+		C90D676B2006C2B3C7DEE13FC120BB9D /* DownloadService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DownloadService.swift; path = Sources/URLImage/ImageLoader/Downloader/DownloadService.swift; sourceTree = "<group>"; };
+		CF7BC350D88DDA63A5CD757F7356988A /* Resize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Resize.swift; path = Sources/URLImage/ImageProcessing/Processors/Resize.swift; sourceTree = "<group>"; };
+		D21E46A974B6C99239FEE8842A3C16B3 /* URLImage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = URLImage.release.xcconfig; sourceTree = "<group>"; };
+		D5BD52FCD079D78789EAED18D08BAAEA /* URLImage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "URLImage-umbrella.h"; sourceTree = "<group>"; };
+		D6732E60019505B5C0DDF7EC7A9BEAF1 /* Pods-PetStore-PetStoreUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PetStore-PetStoreUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D6A6EFCECC81EAD4DC07B3EE97F5A202 /* CoreDataModelDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoreDataModelDescription.swift; path = Sources/URLImage/Utils/CoreData/CoreDataModelDescription.swift; sourceTree = "<group>"; };
+		DA52FB9BF96E23E44299FB7A6D67E3F0 /* ProgressView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProgressView.swift; path = Sources/URLImage/Views/ProgressView/ProgressView.swift; sourceTree = "<group>"; };
+		DDAB35C5D424ACDCF75BB62A4D6F4ACB /* CacheHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CacheHelper.swift; path = Sources/URLImage/Utils/CacheHelper.swift; sourceTree = "<group>"; };
+		E24143803B6A6886E9C5E8FF844A785B /* ImageProcessing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageProcessing.swift; path = Sources/URLImage/ImageProcessing/ImageProcessing.swift; sourceTree = "<group>"; };
+		E33862BEE53071F87728EEAAB5F8A316 /* URLImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLImage.swift; path = Sources/URLImage/URLImage.swift; sourceTree = "<group>"; };
+		E75B7E058CD7777EB8DB2CB242B90558 /* Pods-OpenAPIClient-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OpenAPIClient-dummy.m"; sourceTree = "<group>"; };
+		ECDD126F7E1BC74F389192229B690CE8 /* CoreImageFilterProcessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoreImageFilterProcessor.swift; path = Sources/URLImage/ImageProcessing/Processors/CoreImageFilterProcessor.swift; sourceTree = "<group>"; };
+		F4F2BC501DD4E8BA785B2D8FEE5D401E /* Pods-OpenAPIClient-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OpenAPIClient-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F62DD5AE1802070F9A8DFFE92C1E61BB /* Pods_PetStore_PetStoreUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PetStore_PetStoreUITests.framework; path = "Pods-PetStore-PetStoreUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F660C6291E3947224B48066B782401B6 /* Pods-OpenAPIClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpenAPIClient.debug.xcconfig"; sourceTree = "<group>"; };
-		F66DDA450596587283524D3EDF63F26F /* Pods-PetStore-PetStoreUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PetStore-PetStoreUITests.release.xcconfig"; sourceTree = "<group>"; };
-		F727048499DA2690FDA12E0971BF1562 /* Pods-PetStore.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PetStore.modulemap"; sourceTree = "<group>"; };
-		FA924A196C0459C5A741D4AA3708D970 /* Pods-PetStore-PetStoreUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PetStore-PetStoreUITests-dummy.m"; sourceTree = "<group>"; };
-		FFEF8C55976EEE72EB77CCB9011EA88A /* Pods-PetStore-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PetStore-acknowledgements.plist"; sourceTree = "<group>"; };
+		FF314DD2F127A4167C9390467253F3BE /* FileManager+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FileManager+Extensions.swift"; path = "Sources/URLImage/Utils/FileManager+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		14651B923E508B076CA24E423D024A86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57AA47ED70E89F5ABA59F7F2C68B77DB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		45FBC839F8A67DFD20EB32A1F384E16B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -81,11 +194,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BEEE863A19A8AB01827EC28C4375103A /* Frameworks */ = {
+		60CA41FA61618F4510FD4CF155ED6D7B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E506B60BCE07A7A1EE3E90966550D99 /* Foundation.framework in Frameworks */,
+				BAFCB5E475D18267D092EDD0C4DE82A1 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,101 +210,135 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CC3F5D41C01FBF2A6E3E379023E07447 /* Frameworks */ = {
+		ED8567F4575010CD24DBD8E5C4A91F88 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14FACAE776172D1D833E5D9DEEB2DF06 /* Foundation.framework in Frameworks */,
+				D528543E9D891716545CE7BDCF5CBBE2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1C863B38E62D4A46FA707E8C5E70A03A /* Pods-PetStoreTests */ = {
+		01A55A9663C2675232CDBC40E71CC12F /* Pods-PetStore-PetStoreUITests */ = {
 			isa = PBXGroup;
 			children = (
-				326789F840FFFF2B41E4777BE0A2B376 /* Pods-PetStoreTests.modulemap */,
-				B6D9CABAA88FE13E160A32CEFB7BB7EE /* Pods-PetStoreTests-acknowledgements.markdown */,
-				8AB90B361814DECFC80F565BDD52515E /* Pods-PetStoreTests-acknowledgements.plist */,
-				209CF906A3F216F989B5F1AB04974D6B /* Pods-PetStoreTests-dummy.m */,
-				2E67C610706EDDCAF4CE84E7D82496A2 /* Pods-PetStoreTests-Info.plist */,
-				6F215745A474C1953490399373761087 /* Pods-PetStoreTests-umbrella.h */,
-				A79B13D288E7538366AA68D85A596124 /* Pods-PetStoreTests.debug.xcconfig */,
-				BD72F79CF648C2424E3E177B400E6F5A /* Pods-PetStoreTests.release.xcconfig */,
+				AC59B87D5E26BB8B8F7858841DF6CD16 /* Pods-PetStore-PetStoreUITests.modulemap */,
+				D6732E60019505B5C0DDF7EC7A9BEAF1 /* Pods-PetStore-PetStoreUITests-acknowledgements.markdown */,
+				76C3D97FECE95F9DE708F53726BC2335 /* Pods-PetStore-PetStoreUITests-acknowledgements.plist */,
+				3E3151DBA4AA43829769DA581471EE17 /* Pods-PetStore-PetStoreUITests-dummy.m */,
+				C3DEA8B460337FFD2E13C67D10037AB8 /* Pods-PetStore-PetStoreUITests-frameworks.sh */,
+				3CBC5AABF21711B6F9E552DCA0FE83F1 /* Pods-PetStore-PetStoreUITests-Info.plist */,
+				77E9435CD55F23512F503A9A7E076AE7 /* Pods-PetStore-PetStoreUITests-umbrella.h */,
+				A6856BF03C138839022290846352111E /* Pods-PetStore-PetStoreUITests.debug.xcconfig */,
+				143B8628983F52F71CBD020971088D9F /* Pods-PetStore-PetStoreUITests.release.xcconfig */,
+			);
+			name = "Pods-PetStore-PetStoreUITests";
+			path = "Target Support Files/Pods-PetStore-PetStoreUITests";
+			sourceTree = "<group>";
+		};
+		1E63C916E1D71D7CA1462AD6A0B21E1C /* Pods-PetStoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				7659D86CEFFDC5739DF87F08417F2489 /* Pods-PetStoreTests.modulemap */,
+				152CC79BDEAD6570880E15DE497175B7 /* Pods-PetStoreTests-acknowledgements.markdown */,
+				78E37CCFE2615F4202953469FE63AF12 /* Pods-PetStoreTests-acknowledgements.plist */,
+				1635D91DC869AE26E2288DDE09577F98 /* Pods-PetStoreTests-dummy.m */,
+				BE4A0638674DE2CB635F7D5D04962065 /* Pods-PetStoreTests-Info.plist */,
+				28EB138F5D4D4D92FBE91FB3D2DD5B1C /* Pods-PetStoreTests-umbrella.h */,
+				71AD8D00690BB976534485B519FADD8D /* Pods-PetStoreTests.debug.xcconfig */,
+				68CE2E06E6CFFE7F69A00731F2245165 /* Pods-PetStoreTests.release.xcconfig */,
 			);
 			name = "Pods-PetStoreTests";
 			path = "Target Support Files/Pods-PetStoreTests";
 			sourceTree = "<group>";
 		};
-		316E96E036A8C1D0757CEC92306E4C85 /* Products */ = {
+		379D44846ADB5563384592529A233A4A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				866906593825443775AFABF0683C2487 /* Pods-OpenAPIClient */,
+				D01DD20A7ABB7F31D9D5F8EA6DF5E8CE /* Pods-PetStore */,
+				01A55A9663C2675232CDBC40E71CC12F /* Pods-PetStore-PetStoreUITests */,
+				1E63C916E1D71D7CA1462AD6A0B21E1C /* Pods-PetStoreTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		71E571832703AFC567B7CC1524C12011 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				C15322F6592E8B159BB3C5519EA89313 /* Pods_OpenAPIClient.framework */,
 				70706BE45457FD22D117B9DEF948B072 /* Pods_PetStore.framework */,
 				F62DD5AE1802070F9A8DFFE92C1E61BB /* Pods_PetStore_PetStoreUITests.framework */,
 				90ECDD51FE811A934995E11D37246284 /* Pods_PetStoreTests.framework */,
+				2887F2E4A4C98BEF767A166683622593 /* URLImage.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3B72B77408F86BA491866D397D53D8DB /* Pods-PetStore */ = {
+		866906593825443775AFABF0683C2487 /* Pods-OpenAPIClient */ = {
 			isa = PBXGroup;
 			children = (
-				F727048499DA2690FDA12E0971BF1562 /* Pods-PetStore.modulemap */,
-				59C8CEF09092E5069A890E60D740ACB3 /* Pods-PetStore-acknowledgements.markdown */,
-				FFEF8C55976EEE72EB77CCB9011EA88A /* Pods-PetStore-acknowledgements.plist */,
-				BC4EB287F8CE6FE5E294DFC6CDF129F1 /* Pods-PetStore-dummy.m */,
-				BD7368883DDB731549D425A96BC6B98A /* Pods-PetStore-Info.plist */,
-				08F0D8F08273F313943FE033DDD90692 /* Pods-PetStore-umbrella.h */,
-				3A0695EDDCD6AC0179CF9F44800544A6 /* Pods-PetStore.debug.xcconfig */,
-				278549B4BE390450E91A9C1ADE8A06E7 /* Pods-PetStore.release.xcconfig */,
-			);
-			name = "Pods-PetStore";
-			path = "Target Support Files/Pods-PetStore";
-			sourceTree = "<group>";
-		};
-		3EB1E7DF458627083913E0C2D52DCD55 /* Pods-OpenAPIClient */ = {
-			isa = PBXGroup;
-			children = (
-				D4AFBD6EA6082A9366B51582BB375C29 /* Pods-OpenAPIClient.modulemap */,
-				3B642294F7642B38E0DBD245110856BB /* Pods-OpenAPIClient-acknowledgements.markdown */,
-				4BD0A6C9C1212366D5F761167085EB2B /* Pods-OpenAPIClient-acknowledgements.plist */,
-				24B7AE543B76F2F69CC78BC1345B1EC2 /* Pods-OpenAPIClient-dummy.m */,
-				9AA2650F343B21B238218BA79DF3AE60 /* Pods-OpenAPIClient-Info.plist */,
-				EE5127199D005DE48D9034DF4378FEDC /* Pods-OpenAPIClient-umbrella.h */,
-				F660C6291E3947224B48066B782401B6 /* Pods-OpenAPIClient.debug.xcconfig */,
-				A8FE3193E4B332E4299A23ED4C286159 /* Pods-OpenAPIClient.release.xcconfig */,
+				0CC486A0CB3B6F502674EE35029C2FD2 /* Pods-OpenAPIClient.modulemap */,
+				F4F2BC501DD4E8BA785B2D8FEE5D401E /* Pods-OpenAPIClient-acknowledgements.markdown */,
+				0F947C9BE1C8D3ABBEE7FCCB5AB04B20 /* Pods-OpenAPIClient-acknowledgements.plist */,
+				E75B7E058CD7777EB8DB2CB242B90558 /* Pods-OpenAPIClient-dummy.m */,
+				C384367E779404E97C9776AF4E8DA023 /* Pods-OpenAPIClient-Info.plist */,
+				16E6BBAB0A8D6EC5C9702348CE0440C7 /* Pods-OpenAPIClient-umbrella.h */,
+				60E4459BF8883D745D09A5A63E20ED83 /* Pods-OpenAPIClient.debug.xcconfig */,
+				693D08D3AE3A265DB9D8DC0C6B0A74A6 /* Pods-OpenAPIClient.release.xcconfig */,
 			);
 			name = "Pods-OpenAPIClient";
 			path = "Target Support Files/Pods-OpenAPIClient";
 			sourceTree = "<group>";
 		};
-		5D27A24ED779DFCD1AC6822BC59F5519 /* Pods-PetStore-PetStoreUITests */ = {
+		B3DA08690D5BD093074A39585EA37E19 /* URLImage */ = {
 			isa = PBXGroup;
 			children = (
-				69DFD9CFD455E57EA96798133116349D /* Pods-PetStore-PetStoreUITests.modulemap */,
-				B1D08EE11B1DE7455746738AF6FE8026 /* Pods-PetStore-PetStoreUITests-acknowledgements.markdown */,
-				BB96E78CF9B5C0DD6A0F247D1C70B16E /* Pods-PetStore-PetStoreUITests-acknowledgements.plist */,
-				FA924A196C0459C5A741D4AA3708D970 /* Pods-PetStore-PetStoreUITests-dummy.m */,
-				926F478E7077C8A9E587ACE878C6F018 /* Pods-PetStore-PetStoreUITests-Info.plist */,
-				B28FC721081653BBF601AA7DF6045D51 /* Pods-PetStore-PetStoreUITests-umbrella.h */,
-				77869798338A2289F7BD04BE3FC41588 /* Pods-PetStore-PetStoreUITests.debug.xcconfig */,
-				F66DDA450596587283524D3EDF63F26F /* Pods-PetStore-PetStoreUITests.release.xcconfig */,
+				AB5B460DCD70953ACFB7882C47E9A52B /* AnimatedImageView.swift */,
+				DDAB35C5D424ACDCF75BB62A4D6F4ACB /* CacheHelper.swift */,
+				BC5DE6785450640DCAF924FD06836E65 /* CGContext+Extensions.swift */,
+				23C95E02D35D1E218154FD4DBDA903AD /* CGImage+Extensions.swift */,
+				1B225D4025EED5E5788411BFC1DD537B /* CircleActivityView.swift */,
+				4857008DA2875A5C52ACF3A7B4A35FA3 /* CircleProgressShape.swift */,
+				97FA6BB7D30780B06AAB9A81F853E04B /* CircleProgressView.swift */,
+				BC80E8A8ADA1C17FED6A0486CD34EF8D /* CoreDataAttributeDescription.swift */,
+				262068CD738266CA69622FED79916CE6 /* CoreDataEntityDescription.swift */,
+				5B108EB278A63952B90509FAA519FA52 /* CoreDataFetchIndexDescription.swift */,
+				D6A6EFCECC81EAD4DC07B3EE97F5A202 /* CoreDataModelDescription.swift */,
+				ECDD126F7E1BC74F389192229B690CE8 /* CoreImageFilterProcessor.swift */,
+				A3AF5838C58238F052645F695D8FC70A /* DefaultPlaceholder.swift */,
+				4C30A639E5FADF23D2C80107EF81FB50 /* DownloadCoordinator.swift */,
+				C2C5C2891596B253FE033FCCEB08DB55 /* DownloadHandler.swift */,
+				A747904F71898184C3F0969D77A2346C /* DownloadObserver.swift */,
+				8B5B52BB28A9769DE1BEA0327F377BBF /* DownloadProgressWrapper.swift */,
+				C90D676B2006C2B3C7DEE13FC120BB9D /* DownloadService.swift */,
+				B644C67B03B6BC9AB959CE50FA67ED91 /* FileIndex.swift */,
+				FF314DD2F127A4167C9390467253F3BE /* FileManager+Extensions.swift */,
+				122C7CF3540901A2CD32E76EE6412154 /* ImageDecoder.swift */,
+				B57319781B9125243059FC3D6C0160AF /* ImageDownloadHandler.swift */,
+				07A8F96EF427E586D847479070248AAC /* ImageIOUtils.swift */,
+				155430BBB42F56D9AD4EC5A9AA5AF393 /* ImageLoaderContentView.swift */,
+				0882EB9B35197BA8EBB160917CCCCFCA /* ImageLoaderView.swift */,
+				E24143803B6A6886E9C5E8FF844A785B /* ImageProcessing.swift */,
+				8F91CA66D74E9DB1E99EE1FB985287D8 /* ImageProcessorClosure.swift */,
+				9118B284DE339EA03EEDA0CADF74B11D /* ImageProcessorGroup.swift */,
+				20C190C44F29083869753E7B9655CF85 /* ImageProxy.swift */,
+				7130C78858214BFA02814C8924F277B3 /* ImageSource.swift */,
+				C692F48B0D25D54D59784A1F4F59F8A2 /* LoadingState.swift */,
+				220322725326126C7FF538FCD0AD9B52 /* Log.swift */,
+				DA52FB9BF96E23E44299FB7A6D67E3F0 /* ProgressView.swift */,
+				2F80524EF64A67FE71A4DBDCE84D50BF /* RemoteFileCacheService.swift */,
+				CF7BC350D88DDA63A5CD757F7356988A /* Resize.swift */,
+				E33862BEE53071F87728EEAAB5F8A316 /* URLImage.swift */,
+				59C21B53DFDD9D939A9359E2E7E6A946 /* URLImageService.swift */,
+				00B7337F17C51ED3F2D749D7C5D95241 /* URLSessionDownloadDelegateWrapper.swift */,
+				4ECBD91EECFEFF7A3F80BD90E129BEAD /* Version.swift */,
+				F0F0C062C8D933FC409B23C29206A26B /* Support Files */,
 			);
-			name = "Pods-PetStore-PetStoreUITests";
-			path = "Target Support Files/Pods-PetStore-PetStoreUITests";
-			sourceTree = "<group>";
-		};
-		952DBC165488528FAC1211745867123C /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				3EB1E7DF458627083913E0C2D52DCD55 /* Pods-OpenAPIClient */,
-				3B72B77408F86BA491866D397D53D8DB /* Pods-PetStore */,
-				5D27A24ED779DFCD1AC6822BC59F5519 /* Pods-PetStore-PetStoreUITests */,
-				1C863B38E62D4A46FA707E8C5E70A03A /* Pods-PetStoreTests */,
-			);
-			name = "Targets Support Files";
+			name = URLImage;
+			path = URLImage;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -207,9 +354,27 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				316E96E036A8C1D0757CEC92306E4C85 /* Products */,
-				952DBC165488528FAC1211745867123C /* Targets Support Files */,
+				E0134CED85AD9A2EA69BA7FAC6ADC9B1 /* Pods */,
+				71E571832703AFC567B7CC1524C12011 /* Products */,
+				379D44846ADB5563384592529A233A4A /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D01DD20A7ABB7F31D9D5F8EA6DF5E8CE /* Pods-PetStore */ = {
+			isa = PBXGroup;
+			children = (
+				64C5B0BD53E9544E74658CC1F519A84C /* Pods-PetStore.modulemap */,
+				9043B1EFF28A77374600B7D31689B88A /* Pods-PetStore-acknowledgements.markdown */,
+				B14EE7205926DCF66AAEEE0F510CC9BE /* Pods-PetStore-acknowledgements.plist */,
+				1930900C1BAB6F342CAB50B5F93C1999 /* Pods-PetStore-dummy.m */,
+				48CF27A032736D8B82DEDF8CD4B6B22B /* Pods-PetStore-frameworks.sh */,
+				871AEF1BB4806FD2EF45D465EA305694 /* Pods-PetStore-Info.plist */,
+				5F5ED8DF2C350DEAEBFAB4B8DBFD4753 /* Pods-PetStore-umbrella.h */,
+				4CDD3F94EA454BCAB30184DEF4A39EDB /* Pods-PetStore.debug.xcconfig */,
+				B1A5138FED8B90ABDF5E178194C94AFB /* Pods-PetStore.release.xcconfig */,
+			);
+			name = "Pods-PetStore";
+			path = "Target Support Files/Pods-PetStore";
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
@@ -220,9 +385,40 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E0134CED85AD9A2EA69BA7FAC6ADC9B1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B3DA08690D5BD093074A39585EA37E19 /* URLImage */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F0F0C062C8D933FC409B23C29206A26B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F1D62D5626C7607DE41E13E4A50B0DB /* URLImage.modulemap */,
+				09C732EA77A029D0F074EF63930F1643 /* URLImage-dummy.m */,
+				BBAEE04AF51F916D36CC507CA1AA5C6C /* URLImage-Info.plist */,
+				2A9EC6AABF02DF57625C330B6B41269B /* URLImage-prefix.pch */,
+				D5BD52FCD079D78789EAED18D08BAAEA /* URLImage-umbrella.h */,
+				760E9D325985DDC1A2D6A9474664F5A9 /* URLImage.debug.xcconfig */,
+				D21E46A974B6C99239FEE8842A3C16B3 /* URLImage.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/URLImage";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		16EFA432369AE74A4604723424A032F9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC347BADC8A54D9569BD0D794803F141 /* URLImage-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		20D509CE1030B3B2AD49B614A7899DBE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -231,11 +427,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C6E1380C71F96CDC1F311032A63898D5 /* Headers */ = {
+		3F69F98782B964B38AF818C8ED9325A1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				307B3BB8254246F33C5F5A3D49558B96 /* Pods-PetStore-PetStoreUITests-umbrella.h in Headers */,
+				38C5FE1CFB9E61D2F24A2658EB77BD1D /* Pods-PetStore-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BD23D318DB3B5D762EA2E2F685E0745 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CFE2436F3CCFC08D39D240BF37FD2F5 /* Pods-PetStore-PetStoreUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,29 +451,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E302524EC6C3BAC55518C682F58AD13A /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B1820A53F205BF3A401F43B665DFAFEE /* Pods-PetStore-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		2DDF58A5690B3441F713C3DE4227B040 /* Pods-PetStore */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A1AF2C92504A9C535F49641A25FCCD0D /* Build configuration list for PBXNativeTarget "Pods-PetStore" */;
+			buildConfigurationList = 02D24B5C1714BA22400D708945D62D93 /* Build configuration list for PBXNativeTarget "Pods-PetStore" */;
 			buildPhases = (
-				E302524EC6C3BAC55518C682F58AD13A /* Headers */,
-				1FE72E164BC5E73DB0489AEC5C8F3B56 /* Sources */,
-				CC3F5D41C01FBF2A6E3E379023E07447 /* Frameworks */,
-				017216D3DFE0C87915EB5BE6FFC3B01D /* Resources */,
+				3F69F98782B964B38AF818C8ED9325A1 /* Headers */,
+				18A007D85AE29761511EE6490FD4C593 /* Sources */,
+				14651B923E508B076CA24E423D024A86 /* Frameworks */,
+				302E027A8EE709A935BC1DC27741017A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				7D40D55A3FB6531A87A84F5DF23C38A5 /* PBXTargetDependency */,
 			);
 			name = "Pods-PetStore";
 			productName = "Pods-PetStore";
@@ -278,20 +475,39 @@
 		};
 		3C88FCF0BE214400C5FF585957B581A3 /* Pods-PetStore-PetStoreUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1FF9DE2981DD110D0FFFFF5D512A65DE /* Build configuration list for PBXNativeTarget "Pods-PetStore-PetStoreUITests" */;
+			buildConfigurationList = 563F1BA74E3BEBE839A43DBCA4F2A286 /* Build configuration list for PBXNativeTarget "Pods-PetStore-PetStoreUITests" */;
 			buildPhases = (
-				C6E1380C71F96CDC1F311032A63898D5 /* Headers */,
-				9E4986689F598ACE88F14F3FFA48547F /* Sources */,
-				BEEE863A19A8AB01827EC28C4375103A /* Frameworks */,
-				C9D7F07257BF7CE58F680CA83B2C5980 /* Resources */,
+				8BD23D318DB3B5D762EA2E2F685E0745 /* Headers */,
+				83FD7497B3C57D8BF557AD193792D5FB /* Sources */,
+				ED8567F4575010CD24DBD8E5C4A91F88 /* Frameworks */,
+				42737E5D56DCD6E631C16DE213583201 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B97C0C9179D14368648F6A4FF1C9031 /* PBXTargetDependency */,
+			);
+			name = "Pods-PetStore-PetStoreUITests";
+			productName = "Pods-PetStore-PetStoreUITests";
+			productReference = F62DD5AE1802070F9A8DFFE92C1E61BB /* Pods_PetStore_PetStoreUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		59F0EC9E7C53B8F2B2B1AC59226250AB /* URLImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 899939EAFC19A3CEDC5CC160469DC03D /* Build configuration list for PBXNativeTarget "URLImage" */;
+			buildPhases = (
+				16EFA432369AE74A4604723424A032F9 /* Headers */,
+				2528C9D20FE837E92679E6EEE1D24CAB /* Sources */,
+				60CA41FA61618F4510FD4CF155ED6D7B /* Frameworks */,
+				A6A793FE27A629EE1D7BB63120E0DC52 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-PetStore-PetStoreUITests";
-			productName = "Pods-PetStore-PetStoreUITests";
-			productReference = F62DD5AE1802070F9A8DFFE92C1E61BB /* Pods_PetStore_PetStoreUITests.framework */;
+			name = URLImage;
+			productName = URLImage;
+			productReference = 2887F2E4A4C98BEF767A166683622593 /* URLImage.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		7BCDEBA35563834E2A4A8CA59C27BDF8 /* Pods-OpenAPIClient */ = {
@@ -341,7 +557,7 @@
 				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -349,7 +565,7 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 316E96E036A8C1D0757CEC92306E4C85 /* Products */;
+			productRefGroup = 71E571832703AFC567B7CC1524C12011 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -357,19 +573,27 @@
 				2DDF58A5690B3441F713C3DE4227B040 /* Pods-PetStore */,
 				3C88FCF0BE214400C5FF585957B581A3 /* Pods-PetStore-PetStoreUITests */,
 				E57D8923A18A20C4CCC2683BE18C1DD0 /* Pods-PetStoreTests */,
+				59F0EC9E7C53B8F2B2B1AC59226250AB /* URLImage */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		017216D3DFE0C87915EB5BE6FFC3B01D /* Resources */ = {
+		065AACA332E7D30CFE8B392DAD39933E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		065AACA332E7D30CFE8B392DAD39933E /* Resources */ = {
+		302E027A8EE709A935BC1DC27741017A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42737E5D56DCD6E631C16DE213583201 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -383,7 +607,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C9D7F07257BF7CE58F680CA83B2C5980 /* Resources */ = {
+		A6A793FE27A629EE1D7BB63120E0DC52 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -393,11 +617,58 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1FE72E164BC5E73DB0489AEC5C8F3B56 /* Sources */ = {
+		18A007D85AE29761511EE6490FD4C593 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF2971A695C8777835285CB48C4F14EC /* Pods-PetStore-dummy.m in Sources */,
+				BF1E058E6199ED794718A700F135980B /* Pods-PetStore-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2528C9D20FE837E92679E6EEE1D24CAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D917575D96428B1C4E95051F64AAB7F /* AnimatedImageView.swift in Sources */,
+				B153CD9CC8BC01F27C4D411936204A9D /* CacheHelper.swift in Sources */,
+				F33AC9CAB4C5651A8BE43C62579E532A /* CGContext+Extensions.swift in Sources */,
+				4590623F32A50F4E0206597B8573938D /* CGImage+Extensions.swift in Sources */,
+				6EE34534AB5A94E7786ADF73D17C64BA /* CircleActivityView.swift in Sources */,
+				C9F0940ED0FE00702A81F05FC9D336FD /* CircleProgressShape.swift in Sources */,
+				135C227E160B10461FF90C640CF5438F /* CircleProgressView.swift in Sources */,
+				929BFCF40C7058F50D03F7B0C2944653 /* CoreDataAttributeDescription.swift in Sources */,
+				E3EB92CD6EAF5E945B22DE497EC9C315 /* CoreDataEntityDescription.swift in Sources */,
+				95215AE6F00F45FFA8562E7C15FCF49B /* CoreDataFetchIndexDescription.swift in Sources */,
+				61447FBEFAB97A52F85C9811E44B7F91 /* CoreDataModelDescription.swift in Sources */,
+				68BF1789B40F4C28C30CE9A64439139F /* CoreImageFilterProcessor.swift in Sources */,
+				D293C1172FBEA7A203EAD9E08C5F0142 /* DefaultPlaceholder.swift in Sources */,
+				D3386B4CD56E4EA59B7D9839E6E955DB /* DownloadCoordinator.swift in Sources */,
+				6986185E737FDCBF411685F1964CE095 /* DownloadHandler.swift in Sources */,
+				9DD398571266836890AFFE256A9EC821 /* DownloadObserver.swift in Sources */,
+				778BCF487BE93715B019B37FA08A8EB5 /* DownloadProgressWrapper.swift in Sources */,
+				1111111BB169EF3B04AC3703677DDDF3 /* DownloadService.swift in Sources */,
+				7A52A51E6CFBAFC27147EB4B218262C0 /* FileIndex.swift in Sources */,
+				3C5D200E19C19CFB10EA0D24013C8BB6 /* FileManager+Extensions.swift in Sources */,
+				CBE0C64CADCB6593D0FCCE834388422E /* ImageDecoder.swift in Sources */,
+				A6609D67A08A71D0933FA4815DC33F92 /* ImageDownloadHandler.swift in Sources */,
+				978A0AECD3DD0EA34A9BDB8DB6A49BF8 /* ImageIOUtils.swift in Sources */,
+				53BD16E99EDB0FABB02E414EBDDB6617 /* ImageLoaderContentView.swift in Sources */,
+				84C435CA7D1D079EE143ACE6FBC80A7D /* ImageLoaderView.swift in Sources */,
+				918523E12ABEDFA26B82803534B5F639 /* ImageProcessing.swift in Sources */,
+				426AE8ECAD1670EFECD38DF71CFA8421 /* ImageProcessorClosure.swift in Sources */,
+				944D2FE70C6A2484501C24C52D0AB4FD /* ImageProcessorGroup.swift in Sources */,
+				46886CC9F9DA247FBB10B27EBB175B25 /* ImageProxy.swift in Sources */,
+				368096320B95F083C47448BBF9884B1A /* ImageSource.swift in Sources */,
+				FE7F3FE0713A179A0AEB9965530496D6 /* LoadingState.swift in Sources */,
+				78A94BFB402196C7A2656B344009AD73 /* Log.swift in Sources */,
+				AC47BEE1E28F1AB80B486984536451D3 /* ProgressView.swift in Sources */,
+				697BF090D7D639EDE3D1C367B02CFA4A /* RemoteFileCacheService.swift in Sources */,
+				98226122E7060AF315430819FC370D6B /* Resize.swift in Sources */,
+				18D890E7A9695B529AFF4216A1C6D1CB /* URLImage-dummy.m in Sources */,
+				188F63B08044EB7695C62D2E64CD4F41 /* URLImage.swift in Sources */,
+				EC99B39D0756FA7A38B8EDD2F622B351 /* URLImageService.swift in Sources */,
+				53461F8026C78BABE5009494AFAA479E /* URLSessionDownloadDelegateWrapper.swift in Sources */,
+				DFEF4ED5A67281D0E42774729C6565FE /* Version.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,11 +680,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9E4986689F598ACE88F14F3FFA48547F /* Sources */ = {
+		83FD7497B3C57D8BF557AD193792D5FB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEE6AC7B2873D2F7F690DB2E8E883093 /* Pods-PetStore-PetStoreUITests-dummy.m in Sources */,
+				1C46288EC80180ED98DE507E3D3B68CD /* Pods-PetStore-PetStoreUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +699,18 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		2B97C0C9179D14368648F6A4FF1C9031 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = URLImage;
+			target = 59F0EC9E7C53B8F2B2B1AC59226250AB /* URLImage */;
+			targetProxy = 3BC8AC0525405E0E3EDC7EC11AADDB48 /* PBXContainerItemProxy */;
+		};
+		7D40D55A3FB6531A87A84F5DF23C38A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = URLImage;
+			target = 59F0EC9E7C53B8F2B2B1AC59226250AB /* URLImage */;
+			targetProxy = CE23F2FB527EB223A381E5CB4EAB58EB /* PBXContainerItemProxy */;
+		};
 		AE2ADBD0266A420717DA9D74FC632C71 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-PetStore";
@@ -439,7 +722,7 @@
 /* Begin XCBuildConfiguration section */
 		0CE5D1A03A708FEAE2D3D98E1E12D601 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A79B13D288E7538366AA68D85A596124 /* Pods-PetStoreTests.debug.xcconfig */;
+			baseConfigurationReference = 71AD8D00690BB976534485B519FADD8D /* Pods-PetStoreTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -477,7 +760,7 @@
 		};
 		0FFA2CA9084CD1145787298CD546438D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A8FE3193E4B332E4299A23ED4C286159 /* Pods-OpenAPIClient.release.xcconfig */;
+			baseConfigurationReference = 693D08D3AE3A265DB9D8DC0C6B0A74A6 /* Pods-OpenAPIClient.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -514,9 +797,9 @@
 			};
 			name = Release;
 		};
-		1D8C0A7614A7D22CD2CEF2F44133716B /* Debug */ = {
+		3FE2EAB643AEB0D0F66FDFA770AA971A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3A0695EDDCD6AC0179CF9F44800544A6 /* Pods-PetStore.debug.xcconfig */;
+			baseConfigurationReference = B1A5138FED8B90ABDF5E178194C94AFB /* Pods-PetStore.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -547,14 +830,15 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		49297E713BC09426DD0CBF2C8BB2E01E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BD72F79CF648C2424E3E177B400E6F5A /* Pods-PetStoreTests.release.xcconfig */;
+			baseConfigurationReference = 68CE2E06E6CFFE7F69A00731F2245165 /* Pods-PetStoreTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -590,6 +874,83 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		5BAF679EF333A350738FAD5ADD9094F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 143B8628983F52F71CBD020971088D9F /* Pods-PetStore-PetStoreUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PetStore-PetStoreUITests/Pods-PetStore-PetStoreUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PetStore-PetStoreUITests/Pods-PetStore-PetStoreUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		69B56F56FDE959B738430830D2FBD369 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CDD3F94EA454BCAB30184DEF4A39EDB /* Pods-PetStore.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PetStore/Pods-PetStore-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PetStore/Pods-PetStore.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		6C61D818ACD3C2C116FED6A9C67E91B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -717,7 +1078,7 @@
 		};
 		8F9D37185094692831B4A1BA18CA3F5C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F660C6291E3947224B48066B782401B6 /* Pods-OpenAPIClient.debug.xcconfig */;
+			baseConfigurationReference = 60E4459BF8883D745D09A5A63E20ED83 /* Pods-OpenAPIClient.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -753,9 +1114,45 @@
 			};
 			name = Debug;
 		};
-		98E1B50729F47013C03551EF178A6915 /* Debug */ = {
+		BDE8F0FA245A603950375C8B62FB40AA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 77869798338A2289F7BD04BE3FC41588 /* Pods-PetStore-PetStoreUITests.debug.xcconfig */;
+			baseConfigurationReference = 760E9D325985DDC1A2D6A9474664F5A9 /* URLImage.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/URLImage/URLImage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/URLImage/URLImage-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/URLImage/URLImage.modulemap";
+				PRODUCT_MODULE_NAME = URLImage;
+				PRODUCT_NAME = URLImage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CB96144D72F795BD6BA3840D16DB1DD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6856BF03C138839022290846352111E /* Pods-PetStore-PetStoreUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -791,11 +1188,10 @@
 			};
 			name = Debug;
 		};
-		ABE5A2DC3BFC96AF3F682E530BBB6219 /* Release */ = {
+		F6DFC718299095836F9518B0761506A7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 278549B4BE390450E91A9C1ADE8A06E7 /* Pods-PetStore.release.xcconfig */;
+			baseConfigurationReference = D21E46A974B6C99239FEE8842A3C16B3 /* URLImage.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -806,62 +1202,22 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-PetStore/Pods-PetStore-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/URLImage/URLImage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/URLImage/URLImage-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PetStore/Pods-PetStore.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/URLImage/URLImage.modulemap";
+				PRODUCT_MODULE_NAME = URLImage;
+				PRODUCT_NAME = URLImage;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		EC5CD39BE200992E67C22781F196684E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F66DDA450596587283524D3EDF63F26F /* Pods-PetStore-PetStoreUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-PetStore-PetStoreUITests/Pods-PetStore-PetStoreUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PetStore-PetStoreUITests/Pods-PetStore-PetStoreUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -872,20 +1228,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		02D24B5C1714BA22400D708945D62D93 /* Build configuration list for PBXNativeTarget "Pods-PetStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69B56F56FDE959B738430830D2FBD369 /* Debug */,
+				3FE2EAB643AEB0D0F66FDFA770AA971A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		1F11B821583FECA04D0A782858DA7A75 /* Build configuration list for PBXNativeTarget "Pods-PetStoreTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0CE5D1A03A708FEAE2D3D98E1E12D601 /* Debug */,
 				49297E713BC09426DD0CBF2C8BB2E01E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		1FF9DE2981DD110D0FFFFF5D512A65DE /* Build configuration list for PBXNativeTarget "Pods-PetStore-PetStoreUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				98E1B50729F47013C03551EF178A6915 /* Debug */,
-				EC5CD39BE200992E67C22781F196684E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -899,11 +1255,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A1AF2C92504A9C535F49641A25FCCD0D /* Build configuration list for PBXNativeTarget "Pods-PetStore" */ = {
+		563F1BA74E3BEBE839A43DBCA4F2A286 /* Build configuration list for PBXNativeTarget "Pods-PetStore-PetStoreUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1D8C0A7614A7D22CD2CEF2F44133716B /* Debug */,
-				ABE5A2DC3BFC96AF3F682E530BBB6219 /* Release */,
+				CB96144D72F795BD6BA3840D16DB1DD8 /* Debug */,
+				5BAF679EF333A350738FAD5ADD9094F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		899939EAFC19A3CEDC5CC160469DC03D /* Build configuration list for PBXNativeTarget "URLImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDE8F0FA245A603950375C8B62FB40AA /* Debug */,
+				F6DFC718299095836F9518B0761506A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

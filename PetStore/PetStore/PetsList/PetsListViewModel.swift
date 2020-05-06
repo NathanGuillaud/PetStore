@@ -33,9 +33,6 @@ class PetsListViewModel : ObservableObject {
             if ((response) != nil) {
                 let pets: [Pet]! = response
                 if(pets != nil){
-                    pets.forEach{
-                        pet in print(pet.name)
-                    }
                     DispatchQueue.main.async {
                         self.petsList = pets
                     }

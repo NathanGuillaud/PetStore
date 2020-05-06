@@ -11,6 +11,8 @@ import SwiftUI
 import OpenAPIClient
 
 let categoryData = [
-    Category(id: 1, name: "domestic"),
-    Category(id: 2, name: "wild")
+    Category(id: 1, name: "cat"),
+    Category(id: 2, name: "dog"),
+    Category(id: 3, name: "rabbit"),
+    Category(id: 4, name: "pig")
 ]
