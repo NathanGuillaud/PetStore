@@ -16,7 +16,7 @@ struct PetsDetailsView: View {
             Text(pet.name)
                 .font(.headline)
                 .foregroundColor(.primary)
-            Text("\(pet.name) is a \(pet.category?.name?.lowercased() ?? "NO CATEGORY") animal")
+            Text("\(pet.name) is a \(pet.category?.name?.lowercased() ?? "NO CATEGORY") animal witth a status of \(pet.status?.rawValue ?? "NO STATUS")")
                 .font(.subheadline)
                 .foregroundColor(.secondary)
         }

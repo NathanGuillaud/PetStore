@@ -6,9 +6,10 @@
 //
 
 import Foundation
+import SwiftUI
 
 /** A category for a pet */
-public struct Category: Codable { 
+public struct Category: Codable, Identifiable, Hashable { 
 
 
     public var id: Int64?

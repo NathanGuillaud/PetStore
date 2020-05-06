@@ -13,11 +13,43 @@ import OpenAPIClient
 
 class PetsListViewModel : ObservableObject {
     
-    @Published var petsList = petData
+    @Published var petsList: [Pet] = petData
     
-    func addPet(){
-/*
-        let body = Pet(id: 123, category: Category(id: 123, name: "name_example"), name: "name_example", photoUrls: ["photoUrls_example"], tags: [Tag(id: 123, name: "name_example")], status: Pet.Status.available) // Pet | Pet object that needs to be added to the store
+    init() {
+        self.fetchPets()
+    }
+    
+    func fetchPets(){
+        
+        let petTags = ["animal"] // Int64 | ID of pet to return
+        
+        // Find pet by ID
+        PetAPI.findPetsByTags(tags: petTags) { (response, error) in
+            guard error == nil else {
+                print(error)
+                return
+            }
+
+            if ((response) != nil) {
+                let pets: [Pet]! = response
+                if(pets != nil){
+                    print("----- LIST AFTER FETCHING -----")
+                    pets.forEach{
+                        pet in print(pet.name)
+                    }
+                    DispatchQueue.main.async {
+                        self.petsList = pets
+                        print(self.petsList)
+                    }
+                    
+                }
+            }
+        }
+    }
+    
+    func addPet(id: Int64?, name: String, category: OpenAPIClient.Category?, url: [String], status: Pet.Status?) {
+                
+        let body = Pet(id: id, category: category, name: name, photoUrls: url, tags: [Tag(id: 1, name: "animal")], status: status)
 
         // Add a new pet to the store
         PetAPI.addPet(body: body) { (response, error) in
@@ -27,23 +59,27 @@ class PetsListViewModel : ObservableObject {
             }
 
             if ((response) != nil) {
-                print(response)
+                self.fetchPets()
             }
         }
         
-        let petId = 123 // Int64 | ID of pet to return
+    }
+    
+    func deletePet(petId: Int64) {
+        let apiKey = "apiKey_example" // String |  (optional)
 
-        // Find pet by ID
-        PetAPI.getPetById(petId: Int64(petId)) { (response, error) in
+        // Deletes a pet
+        PetAPI.deletePet(petId: petId, apiKey: apiKey) { (response, error) in
             guard error == nil else {
                 print(error)
                 return
             }
 
             if ((response) != nil) {
-                print(response)
+                self.fetchPets()
             }
-        }*/
+        }
+        
     }
     
 }

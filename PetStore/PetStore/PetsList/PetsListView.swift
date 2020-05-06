@@ -11,6 +11,7 @@ import SwiftUI
 struct PetsListView: View {
     
     @ObservedObject var petsListViewModel = PetsListViewModel()
+    @State var isPresentingAddModal = false
     
     var body: some View {
         NavigationView{
@@ -18,17 +19,37 @@ struct PetsListView: View {
                 VStack{
                     ForEach(petsListViewModel.petsList) { pet in
                         NavigationLink(destination: PetsDetailsView(pet: pet)){
-                            PetsRowView(pet: pet)
+                            PetsRowView(pet: pet, didDeletePet: {
+                                petId in
+                                self.petsListViewModel.deletePet(petId: petId)
+                            })
                         }
                     }
                 }
             }
-        .navigationBarTitle(Text("Pets"))
-        .navigationBarItems(trailing: Button(action: {
-            self.petsListViewModel.addPet()
-        }, label: {
-            Text("Add a pet")
-        }))
+            .navigationBarTitle(Text("Pets"))
+            .navigationBarItems(trailing:
+                /*HStack {
+                 NavigationLink(destination: PetCreationView()) {
+                 Text("Add a pet")
+                 }
+                 Button(action: {
+                 self.petsListViewModel.fetchPets()
+                 }, label: {
+                 Text("Fetch pets")
+                 })
+                 }*/
+                Button(action: {
+                    self.isPresentingAddModal.toggle()
+                }, label: {
+                    Text("Add a pet")
+                })
+                
+            ).sheet(isPresented: $isPresentingAddModal, content: {
+                PetCreationView(isPresented: self.$isPresentingAddModal, didAddPet: { pet in
+                    self.petsListViewModel.addPet(id: pet.id, name: pet.name, category: pet.category, url: pet.photoUrls, status: pet.status)
+                })
+            })
         }
     }
 }
