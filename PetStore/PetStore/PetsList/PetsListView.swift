@@ -22,7 +22,6 @@ struct PetsListView: View {
                     }
                 }.onDelete(perform: self.deleteRow)
             }
-                
             .navigationBarTitle(Text("Pets"))
             .navigationBarItems(trailing:
                 Button(action: {
@@ -40,7 +39,6 @@ struct PetsListView: View {
     }
     
     private func deleteRow(at indexSet: IndexSet) {
-        //self.petsListViewModel.petsList.remove(atOffsets: indexSet)
         self.petsListViewModel.deletePet(petIndex: indexSet)
     }
 }

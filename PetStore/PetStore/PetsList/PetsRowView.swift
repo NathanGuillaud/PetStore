@@ -14,6 +14,22 @@ struct PetsRowView: View {
         
     var body: some View {
         HStack{
+            if(!pet.photoUrls[0].isEmpty) {
+                URLImage(url: URL(string: pet.photoUrls[0])!, placeholder: Image("default")
+                    .resizable()
+                    .aspectRatio(contentMode: .fill)
+                    .frame(width: 50, height: 50, alignment: .center)
+                    .clipShape(Circle())
+                    .shadow(radius: 10), circular: true)
+            } else {
+                Image("default")
+                .resizable()
+                .aspectRatio(contentMode: .fill)
+                .frame(width: 50, height: 50, alignment: .center)
+                .clipShape(Circle())
+                .shadow(radius: 10)
+            }
+            Spacer()
             Text(pet.name)
                 .foregroundColor(.primary)
             Spacer()
